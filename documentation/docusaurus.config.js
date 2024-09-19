@@ -20,6 +20,7 @@ const siteConfig = {
   projectName: "Georgian Blog of Hostnodes",
   organizationName: "hostnodes",
   trailingSlash: true,
+  onBrokenLinks: "ignore",
   favicon: "img/favicon.ico",
   scripts: [
     "https://platform.twitter.com/widgets.js",
