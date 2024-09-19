@@ -13,12 +13,12 @@ const thumbsUpDownFeedbackWidget = require("./plugins/thumbs-up-down-feedback-wi
 
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
-  title: "Refine",
+  title: "Hostnodes",
   tagline: "Build your React-based CRUD applications, without constraints",
-  url: "https://refine.dev",
+  url: "https://blog.hostnodes.ge",
   baseUrl: "/",
-  projectName: "refine",
-  organizationName: "refinedev",
+  projectName: "Georgian Blog of Hostnodes",
+  organizationName: "hostnodes",
   trailingSlash: true,
   favicon: "img/favicon.ico",
   scripts: [

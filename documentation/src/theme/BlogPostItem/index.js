@@ -26,7 +26,7 @@ export default function BlogPostItem({ className }) {
         <Link
           itemProp="url"
           to={permalink}
-          className={clsx("block", "w-full h-auto", "aspect-[592/334]")}
+          className={clsx("block", "w-full h-auto", "aspect-[592/500]")}
         >
           <div
             className={clsx(

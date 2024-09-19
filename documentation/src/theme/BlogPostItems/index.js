@@ -50,7 +50,7 @@ export default function BlogPostItems({
                   "whitespace-nowrap",
                 )}
               >
-                All Posts
+                უახლესი
               </h2>
               <TagsList tags={tags} />
             </div>

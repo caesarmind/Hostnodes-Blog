@@ -1,6 +1,6 @@
 .docs-wrapper:root,
 .blog-wrapper:root {
-    --primary-font-sans: "Inter";
+    --primary-font-sans: "Noto Sans Georgian";
 }
 
 /* Firefox */
@@ -458,7 +458,7 @@ button.sp-button.sp-icon-standalone[title="Open in CodeSandbox"]:has(svg + span)
     margin: 0;
     list-style-position: outside;
     padding-left: 24px;
-    list-style-type: "-   ";  
+    list-style-type: "-   ";
 }
 
 .admonition .refine-common-code-block {

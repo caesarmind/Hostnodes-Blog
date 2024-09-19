@@ -24,11 +24,6 @@ const Enterprise: React.FC = () => {
         <html data-active-page="index" />
         <title>{title}</title>
         <meta property="og:title" content={title} />
-        <link
-          rel="preload"
-          href="https://refine.new/embed-form"
-          as="document"
-        />
       </Head>
       <CommonLayout description="Build React-based internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.">
         <div className={clsx()}>

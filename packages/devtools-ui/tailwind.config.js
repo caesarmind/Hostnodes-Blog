@@ -59,7 +59,7 @@ module.exports = {
           "radial-gradient(48.67% 50.06% at 2.36% 50%, rgba(110, 179, 247, 0.25) 0%, rgba(110, 179, 247, 0.00) 100%), linear-gradient(90deg, rgba(110, 179, 247, 0.10) 0%, rgba(110, 179, 247, 0.00) 100%)",
       },
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["Noto Sans Georgian", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         gray: {
