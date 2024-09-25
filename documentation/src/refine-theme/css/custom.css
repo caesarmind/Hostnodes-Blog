@@ -1,6 +1,6 @@
 .docs-wrapper:root,
 .blog-wrapper:root {
-    --primary-font-sans: "Noto Sans Georgian";
+    --primary-font-sans: "NovemberGeLC";
 }
 
 /* Firefox */
@@ -566,3 +566,4 @@ h4 del code {
 .cm-gutter.cm-lineNumbers {
     @apply !text-xs !leading-5;
 }
+
