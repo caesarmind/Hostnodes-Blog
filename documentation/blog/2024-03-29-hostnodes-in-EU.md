@@ -4,7 +4,7 @@ description: ჰოსტნოუდსი გთავაზობთ ევ�
 slug: hostnodes-in-EU
 authors: archil
 tags: [სიახლე]
-image: https://scontent.fkut1-1.fna.fbcdn.net/v/t39.30808-6/432924954_929432799187468_7973972285669942665_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=euyW9QVtxtcQ7kNvgEqNtmu&_nc_ht=scontent.fkut1-1.fna&_nc_gid=A5VYBtOHsrw8D9ZLq-rj0r8&oh=00_AYDx0xj67Smi6TTFea-Unlqo7HvU6olOSSJbplRwCU5opQ&oe=66F1FF0B
+image: /img/poster/hostnodes-in-eu.jpg
 hide_table_of_contents: true
 ---
 

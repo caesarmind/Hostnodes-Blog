@@ -4,7 +4,7 @@ description: ჰოსტნოუდსი არის პირველი c
 slug: cpanel-partner
 authors: archil
 tags: [სიახლე]
-image: https://refine.ams3.cdn.digitaloceanspaces.com/blog/2023-12-11-frameworks-2024/social-2.png
+image: /img/poster/social-2.png
 hide_table_of_contents: true
 ---
 

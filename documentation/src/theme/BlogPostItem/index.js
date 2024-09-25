@@ -35,7 +35,7 @@ export default function BlogPostItem({ className }) {
             )}
           >
             <img
-              src={`https://refine-web.imgix.net${frontMatter.image?.replace(
+              src={`${frontMatter.image?.replace(
                 "https://refine.ams3.cdn.digitaloceanspaces.com",
                 "",
               )}?h=668`}
