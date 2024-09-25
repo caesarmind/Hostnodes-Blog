@@ -12,16 +12,18 @@ import BlogLayout from "@theme/BlogLayout";
 import BlogPostPageMetadata from "@theme/BlogPostPage/Metadata";
 import { BlogTOC } from "../../refine-theme/blog-toc";
 
-import { BlogPostPageView, PostPaginator } from "../../components/blog";
+import { BlogPostPageView, PostPaginator ,AuthorCardWithProps} from "../../components/blog";
 
 function BlogPostPageContent({ children }) {
   const { metadata, toc } = useBlogPost();
   const { relatedPosts } = metadata;
+  const authorData = metadata.authors[0];
 
   return (
     <BlogLayout toc={<BlogTOC toc={toc} />}>
       <BlogPostPageView>{children}</BlogPostPageView>
       <PostPaginator title="Related Articles" posts={relatedPosts} />
+      <AuthorCardWithProps author={authorData} />
     </BlogLayout>
   );
 }

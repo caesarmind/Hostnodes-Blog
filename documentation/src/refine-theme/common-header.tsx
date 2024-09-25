@@ -13,6 +13,7 @@ import { CommonThemeToggle } from "./common-theme-toggle";
 import { TopAnnouncement } from "./top-announcement";
 
 import { LandingGithubStarButton } from "./landing-github-star-button";
+import { SocialMediaLink } from "./common-header/social-media-link";
 
 type Props = {
   hasSticky?: boolean;
@@ -104,6 +105,7 @@ export const CommonHeader = ({
             >
               <Menu variant={variant} />
             </div>
+            <SocialMediaLink variant={variant} />
             <div
               className={clsx(
                 "hidden landing-md:flex",
