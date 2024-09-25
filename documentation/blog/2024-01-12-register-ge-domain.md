@@ -4,7 +4,7 @@ description: Hostnodes-ზე ახლა უკვე შეგიძლია
 slug: register-ge-domain
 authors: archil
 tags: [სიახლე]
-image: https://www.imghippo.com/i/kAM5z1726768430.jpg
+image: /img/poster/hostnodes-in-eu.jpg
 hide_table_of_contents: true
 ---
 
