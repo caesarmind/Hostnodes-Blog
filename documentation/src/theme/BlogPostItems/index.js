@@ -42,6 +42,7 @@ export default function BlogPostItems({
             >
               <h2
                 className={clsx(
+                  "georgian-uppercase",
                   "!m-0 !mt-0 !mb-0 p-0",
                   "blog-lg:mb-12 blog-md:mb-8 mb-8",
                   "text-2xl blog-sm:text-[32px] blog-sm:leading-10",

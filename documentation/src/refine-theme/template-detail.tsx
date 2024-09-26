@@ -255,8 +255,8 @@ const ProjectLink: FC<PropsWithChildren<{ to: string }>> = ({
         "pl-2 py-2 pr-3",
         "landing-md:pl-3 landing-md:py-3 landing-md:pr-6",
         "rounded-full",
-        "dark:bg-refine-cyan-alt/10 bg-refine-blue/10",
-        "dark:text-refine-cyan-alt text-refine-blue",
+        "dark:bg-refine-blue-alt/10 bg-refine-blue/10",
+        "dark:text-refine-blue-alt text-refine-blue",
         "hover:no-underline",
         "overflow-hidden",
       )}

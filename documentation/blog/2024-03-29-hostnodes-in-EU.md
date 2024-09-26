@@ -4,7 +4,7 @@ description: ჰოსტნოუდსი გთავაზობთ ევ�
 slug: hostnodes-in-EU
 authors: archil
 tags: [სიახლე]
-image: /img/poster/hostnodes-in-eu.jpg
+image: /img/poster/hosting-europe-and-gergia.jpg
 hide_table_of_contents: true
 ---
 

@@ -23,7 +23,7 @@ export const DocRefineLogo = ({ className }: Props) => {
         className={clsx("no-underline", "flex items-center gap-2")}
         onContextMenu={openFigma}
       >
-        <Logo className="text-refine-cyan dark:text-refine-cyan-alt" />
+        <Logo className="text-refine-blue dark:text-refine-blue-alt" />
         <span
           className={clsx(
             "text-gray-1000 dark:text-gray-0",

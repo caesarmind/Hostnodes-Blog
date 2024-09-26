@@ -198,7 +198,7 @@ const LandingTryItOptionsSection = ({
             "self-start",
             "rounded-3xl",
             "!text-gray-0 dark:!text-gray-900",
-            "bg-refine-blue dark:bg-refine-cyan-alt",
+            "bg-refine-blue dark:bg-refine-blue-alt",
             "py-3",
             "px-6",
             "flex",

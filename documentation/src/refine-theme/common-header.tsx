@@ -113,7 +113,7 @@ export const CommonHeader = ({
                 "justify-end",
                 "gap-4",
                 "w-[130px]",
-                "landing-lg:w-[200px]",
+                "landing-lg:w-[100px]",
               )}
             >
               {/* <LandingGithubStarButton /> */}

@@ -44,7 +44,7 @@ const colorTextClasses = {
   danger: "text-refine-red",
   "command-line": "text-refine-purple",
   sourcecode: "text-refine-pink",
-  additional: "text-refine-cyan",
+  additional: "text-refine-blue",
   simple: "text-gray-700 dark:text-gray-100",
 };
 
@@ -59,7 +59,7 @@ const colorWrapperClasses = {
   "command-line": "bg-refine-purple bg-opacity-10 border-l-refine-purple",
   danger: "bg-refine-red bg-opacity-10 border-l-refine-red",
   sourcecode: "bg-refine-pink bg-opacity-10 border-l-refine-pink",
-  additional: "bg-refine-cyan bg-opacity-10 border-l-refine-cyan",
+  additional: "bg-refine-blue bg-opacity-10 border-l-refine-blue",
   simple: "border dark:border-gray-700 border-gray-300",
 };
 

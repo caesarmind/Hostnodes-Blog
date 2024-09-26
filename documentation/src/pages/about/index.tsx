@@ -1,5 +1,4 @@
 import Head from "@docusaurus/Head";
-import { FooterRedditIcon as RedditIcon } from "@site/src/refine-theme/icons/footer-reddit";
 import { BlogFooter } from "@site/src/refine-theme/blog-footer";
 import { CommonHeader } from "@site/src/refine-theme/common-header";
 import { CommonLayout } from "@site/src/refine-theme/common-layout";
@@ -212,35 +211,6 @@ const About: React.FC = () => {
                   </div>
                   <div className="font-semibold text-gray-900 dark:text-gray-0 no-underline hover:no-underline">
                     Discord Server
-                  </div>
-                </div>
-              </a>
-              <a
-                target="_blank"
-                href="https://reddit.com/r/refine"
-                rel="noreferrer"
-                className={clsx(
-                  "flex  h-max flex-row justify-start gap-3",
-                  "dark:bg-gray-900",
-                  "border border-gray-200 dark:border-gray-700",
-                  "p-4 rounded-xl",
-                  "no-underline hover:no-underline",
-                )}
-              >
-                <div>
-                  <RedditIcon
-                    className="text-2xl"
-                    width="24px"
-                    height="24px"
-                    color="#FF4500"
-                  />
-                </div>
-                <div className="text-xs md:text-base">
-                  <div className="mb-0 text-gray-500 dark:text-gray-400">
-                    Follow us on
-                  </div>
-                  <div className="font-semibold text-gray-900 dark:text-gray-0 no-underline hover:no-underline">
-                    Reddit
                   </div>
                 </div>
               </a>

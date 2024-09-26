@@ -84,7 +84,7 @@ const Desktop = ({
       >
         {tags.map((tag) => (
           <li
-            className={clsx("inline-flex", "m-1", "mr-3")}
+            className={clsx("inline-flex", "m-1", "mr-3", "georgian-uppercase")}
             key={tag.permalink}
           >
             <Tag {...tag} label={mapLabel(tag.label)} />
@@ -95,6 +95,7 @@ const Desktop = ({
         type="button"
         onClick={() => onShowMoreClick(!collapsed)}
         className={clsx(
+          "georgian-uppercase",
           "appearance-none",
           "flex",
           "items-center",

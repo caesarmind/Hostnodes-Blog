@@ -4,11 +4,9 @@ description: Hostnodes-ზე ახლა უკვე შეგიძლია
 slug: register-ge-domain
 authors: archil
 tags: [სიახლე]
-image: /img/poster/hostnodes-in-eu.jpg
+image: /img/poster/ge-domain-reg.jpg
 hide_table_of_contents: true
 ---
-
-**This article was last updated on September 12, 2024, to add sections on State Management in Terraform, Using Terraform Modules, Managing Secrets and Sensitive Data, Workspaces for Multi-Environment Management, Security Best Practices, Automating Terraform with CI/CD, Handling Resource Dependencies, and Cost Estimation with Terraform.**
 
 🎉 როგორც იქნა! 🥳
 

@@ -1,11 +1,11 @@
 export const CSSRules = [
   `
     .bg-top-announcement {
-        border-bottom: 1px solid rgba(71, 235, 235, 0.15);
+        border-bottom: 1px solid rgba(0, 128, 255, 0.15);
         background: radial-gradient(
                 218.19% 111.8% at 0% 0%,
-                rgba(71, 235, 235, 0.1) 0%,
-                rgba(71, 235, 235, 0.2) 100%
+                rgba(0, 128, 255, 0.1) 0%,
+                rgba(0, 128, 255, 0.2) 100%
             ),
             #14141f;
     }
@@ -16,7 +16,7 @@ export const CSSRules = [
         -webkit-mask-image: url(https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/hexagon.svg);
         mask-repeat: repeat;
         -webkit-mask-repeat: repeat;
-        background: rgba(71, 235, 235, 0.25);
+        background: rgba(0, 128, 255, 0.25);
     }
     `,
   `

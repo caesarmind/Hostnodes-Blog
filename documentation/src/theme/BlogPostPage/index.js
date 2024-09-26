@@ -12,7 +12,11 @@ import BlogLayout from "@theme/BlogLayout";
 import BlogPostPageMetadata from "@theme/BlogPostPage/Metadata";
 import { BlogTOC } from "../../refine-theme/blog-toc";
 
-import { BlogPostPageView, PostPaginator ,AuthorCardWithProps} from "../../components/blog";
+import {
+  BlogPostPageView,
+  PostPaginator,
+  AuthorCardWithProps,
+} from "../../components/blog";
 
 function BlogPostPageContent({ children }) {
   const { metadata, toc } = useBlogPost();
@@ -22,8 +26,8 @@ function BlogPostPageContent({ children }) {
   return (
     <BlogLayout toc={<BlogTOC toc={toc} />}>
       <BlogPostPageView>{children}</BlogPostPageView>
-      <PostPaginator title="Related Articles" posts={relatedPosts} />
       <AuthorCardWithProps author={authorData} />
+      <PostPaginator title="მსგავსი პოსტები" posts={relatedPosts} />
     </BlogLayout>
   );
 }

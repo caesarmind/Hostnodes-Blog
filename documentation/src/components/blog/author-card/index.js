@@ -47,20 +47,19 @@ const AuthorCard = ({ author }) => {
                   "flex flex-shrink-0",
                   "h-12 w-12",
                   "blog-sm:h-[88px] blog-sm:w-[88px]",
-                  "blog-md:h-[120px] blog-md:w-[120px]",
                   "rounded-full object-cover",
                 )}
               />
             </Link>
             <div className={clsx("not-prose flex flex-col justify-between")}>
-              <h1
+              <h3
                 className={clsx(
-                  "text-xl sm:text-[40px] sm:leading-[56px]",
+                  "text-base sm:text-[30px]  sm:leading-[30px]",
                   "m-0 p-0 pb-2 font-bold text-gray-900 dark:text-gray-200",
                 )}
               >
                 {author?.name}
-              </h1>
+              </h3>
               <div
                 className={clsx(
                   "text-xs sm:text-base",

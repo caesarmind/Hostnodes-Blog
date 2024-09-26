@@ -293,7 +293,7 @@ export const LandingHeroAnimation = React.memo(function HeroAnimation() {
           style={{
             fillOpacity: 0,
             filter:
-              "drop-shadow(rgba(71, 235, 235,0.1) 0px 0px 0px) drop-shadow(rgba(71, 235, 235,0.15) 0px 0px 10px)",
+              "drop-shadow(rgba(0, 128, 255,0.1) 0px 0px 0px) drop-shadow(rgba(0, 128, 255,0.15) 0px 0px 10px)",
           }}
         />
         <div

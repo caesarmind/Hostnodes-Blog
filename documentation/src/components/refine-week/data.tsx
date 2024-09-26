@@ -5,7 +5,7 @@ import {
 } from "@site/src/assets/integration-icons";
 import { FooterDiscordIcon as DiscordIcon } from "../../refine-theme/icons/footer-discord";
 import { FooterGithubIcon as GithubIcon } from "../../refine-theme/icons/footer-github";
-import { FooterRedditIcon as RedditIcon } from "../../refine-theme/icons/footer-reddit";
+import { FooterFacebookIcon as FacebookIcon } from "../../refine-theme/icons/footer-facebook";
 import { FooterTwitterIcon as TwitterIcon } from "../../refine-theme/icons/footer-twitter";
 
 // The contents added to the timeline are defined day by day in the data.timeline. All contents are not published at the same time.
@@ -211,13 +211,6 @@ export const additionalSources = [
     icon: <TwitterIcon color="#00AAEC" width="24" height="24" />,
     link: "https://twitter.com/refine_dev",
     color: "#00AAEC",
-  },
-  {
-    title: "Follow us on",
-    label: "Reddit",
-    icon: <RedditIcon color="#FF4500" width="24" height="24" />,
-    link: "https://reddit.com/r/refine",
-    color: "#FF4500",
   },
 ];
 

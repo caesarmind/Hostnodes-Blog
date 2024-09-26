@@ -4,11 +4,9 @@ description: ჰოსტნოუდსი არის პირველი c
 slug: cpanel-partner
 authors: archil
 tags: [სიახლე]
-image: /img/poster/social-2.png
+image: /img/poster/cpanel-hostnodes.jpg
 hide_table_of_contents: true
 ---
-
-**This article was last updated on September 16, 2024, to add sections on the Future Outlook for Each Framework, Integration with Popular Libraries and Tools, Performance and Scalability.**
 
 🎉 პირველად საქართველოში! 🎉
 
