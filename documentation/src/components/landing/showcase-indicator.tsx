@@ -74,7 +74,7 @@ export const ShowcaseIndicator = React.memo(function ShowcaseIndicatorBase({
                 "rounded-full",
                 "border-2",
                 "border-refine-blue",
-                "dark:border-refine-cyan",
+                "dark:border-refine-blue",
               )}
               style={{
                 animationDelay: `${d}ms`,

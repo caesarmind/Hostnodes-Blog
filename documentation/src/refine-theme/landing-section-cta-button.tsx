@@ -37,8 +37,8 @@ export const LandingSectionCtaButton: FC<PropsWithChildren<Props>> = ({
         "landing-sm:py-3 landing-sm:pr-4 landing-sm:pl-6",
         "text-xs landing-sm:text-base",
         "font-semibold",
-        "dark:text-refine-cyan-alt text-refine-blue",
-        "dark:bg-refine-cyan-alt/10 bg-refine-blue/10",
+        "dark:text-refine-blue-alt text-refine-blue",
+        "dark:bg-refine-blue-alt/10 bg-refine-blue/10",
         "overflow-hidden",
       )}
     >
@@ -98,8 +98,8 @@ export const LandingSectionCtaButtonAlt: FC<PropsWithChildren<Props>> = ({
         "py-3 pr-4 pl-6",
         "text-base",
         "font-semibold",
-        "dark:text-refine-cyan-alt text-refine-blue",
-        "dark:bg-refine-cyan-alt/10 bg-refine-blue/10",
+        "dark:text-refine-blue-alt text-refine-blue",
+        "dark:bg-refine-blue-alt/10 bg-refine-blue/10",
         "overflow-hidden",
       )}
     >

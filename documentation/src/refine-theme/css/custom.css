@@ -1,3 +1,7 @@
+.georgian-uppercase {
+  font-feature-settings: "case";
+}
+
 .docs-wrapper:root,
 .blog-wrapper:root {
     --primary-font-sans: "NovemberGeLC";

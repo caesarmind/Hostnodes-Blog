@@ -312,7 +312,7 @@ const TableTabs = ({ activeTab, setActiveTab }) => {
           activeTab === "enterprise" &&
             "bg-gray-200 dark:bg-gray-700 text-gray-400 dark:text-gray-500",
           activeTab === "community" &&
-            "bg-refine-blue dark:bg-refine-cyan-alt text-gray-0 dark:text-gray-900",
+            "bg-refine-blue dark:bg-refine-blue-alt text-gray-0 dark:text-gray-900",
         )}
       >
         <ArrowLeftLongIcon
@@ -389,7 +389,7 @@ const TableTabs = ({ activeTab, setActiveTab }) => {
               "transition-opacity",
               "ease-in-out",
               "duration-100",
-              "dark:text-refine-cyan-alt dark:drop-shadow-[0_0_30px_rgba(71,235,235,0.25)]",
+              "dark:text-refine-blue-alt dark:drop-shadow-[0_0_30px_rgba(71,235,235,0.25)]",
               "text-refine-blue drop-shadow-[0_0_30px_rgba(51,51,255,0.3)]",
             )}
           >

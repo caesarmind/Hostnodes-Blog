@@ -2,7 +2,8 @@ import React from "react";
 import { FooterDiscordIcon } from "./icons/footer-discord";
 import { FooterGithubIcon } from "./icons/footer-github";
 import { FooterLinkedinIcon } from "./icons/footer-linkedin";
-import { FooterRedditIcon } from "./icons/footer-reddit";
+import { FooterFacebookIcon } from "./icons/footer-facebook";
+import { FooterWordpressIcon } from "./icons/footer-wordpress";
 import { FooterTwitterIcon } from "./icons/footer-twitter";
 import { NewBadgeIcon } from "./icons/popover";
 
@@ -93,23 +94,15 @@ export const footerDescription =
 
 export const socialLinks = [
   {
-    icon: FooterGithubIcon,
-    href: "https://github.com/refinedev/refine",
-  },
-  {
-    icon: FooterDiscordIcon,
-    href: "https://discord.gg/refine",
-  },
-  {
-    icon: FooterRedditIcon,
-    href: "https://www.reddit.com/r/refine/",
-  },
-  {
-    icon: FooterTwitterIcon,
-    href: "https://twitter.com/refine_dev",
+    icon: FooterFacebookIcon,
+    href: "https://www.facebook.com/hostnodesltd",
   },
   {
     icon: FooterLinkedinIcon,
-    href: "https://www.linkedin.com/company/refine-dev",
+    href: "https://www.linkedin.com/hostnodes/",
+  },
+  {
+    icon: FooterWordpressIcon,
+    href: "https://www.facebook.com/groups/537791756387318",
   },
 ];

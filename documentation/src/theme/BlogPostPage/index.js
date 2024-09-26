@@ -27,7 +27,7 @@ function BlogPostPageContent({ children }) {
     <BlogLayout toc={<BlogTOC toc={toc} />}>
       <BlogPostPageView>{children}</BlogPostPageView>
       <AuthorCardWithProps author={authorData} />
-      <PostPaginator title="Related Articles" posts={relatedPosts} />
+      <PostPaginator title="მსგავსი პოსტები" posts={relatedPosts} />
     </BlogLayout>
   );
 }

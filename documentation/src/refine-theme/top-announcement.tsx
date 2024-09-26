@@ -116,7 +116,7 @@ const Text = () => {
         <span className={clsx("font-semibold")}>მხოლოდ ჰოსტნოუდსზე</span>
         <span
           className={clsx(
-            "text-refine-cyan-alt hover:text-refine-cyan-alt",
+            "text-refine-blue-alt hover:text-refine-blue-alt",
             "font-semibold",
             "ml-2",
           )}

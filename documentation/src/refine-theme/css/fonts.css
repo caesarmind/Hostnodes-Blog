@@ -4,39 +4,39 @@
 
 @font-face {
   font-family: 'NovemberGeLC';
-  src: url('./fonts/NovemberGeLC-Bold.woff2') format('woff2');
+  src: url('./fonts/NovemberGeLC-Regular.woff2') format('woff2');
   font-weight: normal;
-  font-style: bold;
+  font-style: normal;
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'NovemberGeLC';
+  src: url('./fonts/NovemberGeLC-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+/*
+@font-face {
+  font-family: 'NovemberGeLC';
+  src: url('./fonts//NovemberGeLC-S.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'NovemberGeLC';
+  src: url('./fonts/NovemberGeLC-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
   font-family: 'NovemberGeLC';
   src: url('./fonts/NovemberGeLC-Heavy.woff2') format('woff2');
-  font-weight: 300;
-  font-style: heavy;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NovemberGeLC';
-  src: url('./fonts//NovemberGeLC-Light.woff2') format('woff2');
-  font-weight: 600;
-  font-style: light;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'NovemberGeLC';
-  src: url('./fonts/NovemberGeLC-Medium.woff2') format('woff2');
-  font-weight: 700;
-  font-style: medium;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'NovemberGeLC';
-  src: url('./fonts/NovemberGeLC-Regular.woff2') format('woff2');
   font-weight: 800;
-  font-style: regular;
+  font-style: normal;
   font-display: swap;
 }
