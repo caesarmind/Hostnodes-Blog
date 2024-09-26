@@ -94,14 +94,6 @@ const siteConfig = {
           d.getElementsByTagName("head")[0].appendChild(s);
         })();
       `,
-    {
-      src: "https://client.crisp.chat/l.js",
-      async: false,
-      onload: function () {
-        window.$crisp = [];
-        window.CRISP_WEBSITE_ID = "c93eef35-8eb8-4fd2-a038-ea4b12ad779f";
-      },
-
     },
   ],
   presets: [
