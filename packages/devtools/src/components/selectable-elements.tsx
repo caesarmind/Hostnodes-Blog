@@ -204,31 +204,31 @@ export const SelectableElements = ({
             z-index: 9999;
             border: 2px dashed #47EBEB;
             border-radius: 6px;
-            background: rgba(71, 235, 235, 0.01);
+            background: rgba(0, 128, 255, 0.01);
             transition: opacity 0.2s ease-in-out;
             cursor: crosshair;
           }
-        
+
           .selector-xray-info {
             display: flex;
             justify-content: center;
             align-items: center;
-      
+
             z-index: 10;
-      
+
             padding: 3px 0;
             min-width: 22px;
             height: 22px;
-      
+
             color: #14141F;
             background: #47EBEB;
-      
+
             font-size: 12px;
             line-height: 16px;
             font-family: monospace;
             border-radius: 11px;
           }
-      
+
           .selector-xray-info-icon {
             display: flex;
             min-width: 22px;
@@ -236,7 +236,7 @@ export const SelectableElements = ({
             align-items: center;
             flex-shrink: 0;
           }
-      
+
           .selector-xray-info-title {
             display: block;
             max-width: 0;
@@ -246,7 +246,7 @@ export const SelectableElements = ({
             transition-timing-function: ease-in-out;
             transition-delay: 0.1s;
           }
-      
+
           .selector-xray-box:hover .selector-xray-info-title {
             max-width: 200px;
             padding-right: 8px;

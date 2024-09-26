@@ -9,7 +9,6 @@ export const TopAnnouncement = () => {
         "relative",
         "bg-top-announcement",
         "not-prose",
-        "font-inter",
         "z-top-announcement",
       )}
     >

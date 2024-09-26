@@ -199,11 +199,11 @@ module.exports = {
           "linear-gradient(270deg, rgba(31, 173, 102, 0) 0%, rgba(31, 173, 102, 0.5) 12.5%, rgba(31, 173, 102, 0.5) 87.5%, rgba(31, 173, 102, 0) 100%)",
         "landing-component-badge": [
           "linear-gradient(306deg, #303450 0%, rgba(20, 20, 31, 0.5) 100%)",
-          "linear-gradient(168deg, rgba(38, 217, 127, 0.9) 15%, rgba(71, 235, 235, 0) 50%)",
+          "linear-gradient(168deg, rgba(38, 217, 127, 0.9) 15%, rgba(0, 128, 255, 0) 50%)",
           "linear-gradient(0deg, #303450, #303450)",
         ],
         "landing-component-badge-glow":
-          "radial-gradient(50% 50% at 50% 50%, rgba(38, 217, 127, 0.1) 0%, rgba(71, 235, 235, 0) 100%)",
+          "radial-gradient(50% 50% at 50% 50%, rgba(38, 217, 127, 0.1) 0%, rgba(0, 128, 255, 0) 100%)",
         "landing-text-bg":
           "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.6) 100%)",
         "landing-text-bg-alt":
@@ -266,14 +266,14 @@ module.exports = {
           "url('https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/landing-playground-slide-right.svg')",
         "landing-trusted-by-developers-dark": [
           "url(https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/landing-noise.webp)",
-          "radial-gradient(40% 100% at 110% 0%, rgba(71, 235, 235, 0.15) 0%, rgba(71, 235, 235, 0.00) 100%)",
+          "radial-gradient(40% 100% at 110% 0%, rgba(0, 128, 255, 0.15) 0%, rgba(0, 128, 255, 0.00) 100%)",
         ],
         "landing-trusted-by-developers": [
           "radial-gradient(40% 100% at 110% 20%, rgba(0, 128, 255, 0.15) 0%, #F4F8FB 100%)",
         ],
         "landing-packages-dark": [
           "url(https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/landing-noise.webp)",
-          "radial-gradient(50% 100% at 50% -40%, rgba(71, 235, 235, 0.15) 0%, rgba(71, 235, 235, 0.00) 100%)",
+          "radial-gradient(50% 100% at 50% -40%, rgba(0, 128, 255, 0.15) 0%, rgba(0, 128, 255, 0.00) 100%)",
         ],
         "landing-packages": [
           "radial-gradient(50% 100% at 50% -60%, rgba(0, 128, 255, 0.15) 0%, #F4F8FB 100%)",
@@ -377,7 +377,7 @@ module.exports = {
         "top-announcement-text":
           "linear-gradient(90deg, rgba(31, 63, 72, 0.00) 0%, #1F3F48 10%, #1F3F48 90%, rgba(31, 63, 72, 0.00) 100%)",
         "sidebar-item-shiny-dark":
-          "radial-gradient(457.67% 141.42% at 0% 0%, rgba(71, 235, 235, 0.10) 0%, rgba(71, 235, 235, 0.20) 100%)",
+          "radial-gradient(457.67% 141.42% at 0% 0%, rgba(0, 128, 255, 0.10) 0%, rgba(0, 128, 255, 0.20) 100%)",
         "sidebar-item-shiny-light":
           "radial-gradient(457.67% 141.42% at 0% 0%, rgba(0, 128, 255, 0.20) 0%, rgba(0, 128, 255, 0.10) 100%)",
         "top-announcement-bg-tr":
@@ -401,7 +401,7 @@ module.exports = {
         "landing-hero-xray-dot-center-bg-light":
           "radial-gradient(100% 100% at 0% 0%, #74FFFF 0%, #0080FF 50%, #0080FF 100%)",
         "landing-wizard-option-bg-dark": [
-          "radial-gradient(50% 50% at 50% 50%, rgba(71, 235, 235, 0.15) 0%, rgba(71, 235, 235, 0) 100%)",
+          "radial-gradient(50% 50% at 50% 50%, rgba(0, 128, 255, 0.15) 0%, rgba(0, 128, 255, 0) 100%)",
           "url(https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/landing-noise.webp)",
         ],
         "landing-wizard-option-bg-light": [
@@ -425,18 +425,18 @@ module.exports = {
           "radial-gradient(50% 50% at 50% 50%, rgba(48, 52, 80, 0.75) 0%, rgba(48, 52, 80, 0.1) 50%, rgba(48, 52, 80, 0.00) 100%)",
         ],
         "landing-copy-command-hover-bg-dark": [
-          "radial-gradient(transparent 30%, rgba(71, 235, 235, 0.25))",
+          "radial-gradient(transparent 30%, rgba(0, 128, 255, 0.25))",
         ],
         "landing-copy-command-hover-bg-light": [
           "radial-gradient(transparent 30%, rgba(0, 128, 255, 0.1))",
         ],
         "enterprise-cta-dark": [
           "url(https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/landing-noise.webp)",
-          "radial-gradient(45% 80% at 50% 50%, rgba(71, 235, 235, 0.15) 0%, rgba(71, 235, 235, 0.00) 100%)",
+          "radial-gradient(45% 80% at 50% 50%, rgba(0, 128, 255, 0.15) 0%, rgba(0, 128, 255, 0.00) 100%)",
         ],
         "enterprise-cta-dark-md": [
           "url(https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/landing-noise.webp)",
-          "radial-gradient(30% 100% at 100% 50%, rgba(71, 235, 235, 0.15) 0%, rgba(71, 235, 235, 0.00) 100%)",
+          "radial-gradient(30% 100% at 100% 50%, rgba(0, 128, 255, 0.15) 0%, rgba(0, 128, 255, 0.00) 100%)",
         ],
         "enterprise-cta-light":
           "radial-gradient(100% 100% at 50% 50%, rgba(0, 128, 255, 0.15) 0%, rgba(0, 128, 255, 0.00) 100%)",
@@ -507,7 +507,7 @@ module.exports = {
         "landing-wai-grid-dark":
           "url(https://refine.ams3.cdn.digitaloceanspaces.com/website/static/assets/wheel-already-invented-grid-unit-normal.png)",
         "landing-wai-bg-dark":
-          "radial-gradient(57.03% 100% at 50% 0%, rgba(71, 235, 235, 0.25) 0%, rgba(71, 235, 235, 0) 100%)",
+          "radial-gradient(57.03% 100% at 50% 0%, rgba(0, 128, 255, 0.25) 0%, rgba(0, 128, 255, 0) 100%)",
       },
       backgroundPosition: {
         "landing-wizard-option-right": "top -350px right -350px, center",
