@@ -23,7 +23,7 @@ const siteConfig = {
   onBrokenLinks: "ignore",
   favicon: "img/favicon.ico",
   scripts: [
-    "https://platform.twitter.com/widgets.js",
+    // "https://platform.twitter.com/widgets.js",
     {
       src: "https://widget.kapa.ai/kapa-widget.bundle.js",
       "data-website-id": "fa91d75a-5c82-4272-a893-a21d92245578",
@@ -45,6 +45,14 @@ const siteConfig = {
       "data-project-logo":
         "https://refine.ams3.cdn.digitaloceanspaces.com/assets/refine-ai-bot-logo.png",
       async: true,
+    },
+    {
+      src: "https://client.crisp.chat/l.js",
+      async: false,
+      onload: function () {
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "c93eef35-8eb8-4fd2-a038-ea4b12ad779f";
+      },
     },
   ],
   presets: [
