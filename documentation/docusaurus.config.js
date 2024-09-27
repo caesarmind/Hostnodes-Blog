@@ -193,7 +193,7 @@ const siteConfig = {
             {
               blogTitle: "Blog",
               blogDescription:
-                "A resource for Refine, front-end ecosystem, and web development",
+                "ტექნიკური ბლოგ Wordpress-სა და ვებ-გვერდის ოპტიმიზაციაზე.",
               routeBasePath: "/",
               postsPerPage: 12,
               blogSidebarTitle: "უახლესი",
