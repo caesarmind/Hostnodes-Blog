@@ -150,13 +150,13 @@ const Mobile = ({ tags, className }: { tags: any; className?: string }) => {
           )}
         >
           <FilterIcon />
-          <div>Filter Tags</div>
+          <div>გაფილტრვა</div>
         </button>
       </div>
       <CommonDrawer
         onClose={() => setIsFilterDrawerOpen(false)}
         open={isFilterDrawerOpen}
-        title="Filter Tags"
+        title="გაფილტრვა"
         variant="blog"
       >
         <ul

@@ -82,10 +82,12 @@ export const secondaryMenuItems = [
   {
     label: "ჰოსტინგი",
     href: "https://hostnodes.ge",
+    target: "_blank",
   },
   {
     label: "დახმარება",
-    href: "https://hostnodes.ge/support",
+    href: "https://hostnodes.ge/contact-us",
+    target: "_blank",
   },
 ];
 
@@ -99,7 +101,7 @@ export const socialLinks = [
   },
   {
     icon: FooterLinkedinIcon,
-    href: "https://www.linkedin.com/hostnodes/",
+    href: "https://www.linkedin.com/company/hostnodes",
   },
   {
     icon: FooterWordpressIcon,

@@ -63,6 +63,7 @@ export const MENU_ITEMS: MenuItemType[] = [
     isPopover: false,
     label: "ჰოსტინგი",
     href: "https://hostnodes.ge",
+    target: "_blank",
     // icon: NewBadgeIcon,
   },
   // {

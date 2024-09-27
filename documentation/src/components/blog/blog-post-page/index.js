@@ -76,7 +76,7 @@ export const BlogPostPageView = ({ children }) => {
           <span className="text-refine-react-5 dark:text-refine-react-4 text-sm">
             გააზიარე
           </span>
-          <FacebookMessengerShareButton
+          {/* <FacebookMessengerShareButton
             windowWidth={750}
             windowHeight={800}
             url={url + permalink}
@@ -85,7 +85,7 @@ export const BlogPostPageView = ({ children }) => {
             hashtags={tags.map((tag) => tag.label)}
           >
             <FacebookMessengerIcon width={24} height={24} borderRadius={50} />
-          </FacebookMessengerShareButton>
+          </FacebookMessengerShareButton> */}
           <FacebookShareButton
             className="flex"
             windowWidth={750}
@@ -109,7 +109,6 @@ export const BlogPostPageView = ({ children }) => {
       <div className="not-prose">
         <img
           className="w-full rounded-xl blog-lg:rounded-[2.25rem] aspect-[894/504]"
-
           src={`${frontMatter.image?.replace(
             "https://refine.ams3.cdn.digitaloceanspaces.com",
             "",

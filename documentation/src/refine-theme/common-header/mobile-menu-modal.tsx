@@ -230,7 +230,7 @@ const Phone = (props: { className?: string }) => {
 const Github = (props: { id?: string }) => {
   return (
     <Link to="https://github.com/refinedev/refine" className="no-underline">
-      <div
+      {/* <div
         className={clsx(
           "border-t dark:border-gray-700 border-gray-300",
           "dark:bg-gray-800 bg-gray-100",
@@ -242,7 +242,7 @@ const Github = (props: { id?: string }) => {
         <div className={clsx("ml-4", "dark:text-gray-400 text-gray-600")}>
           If you like Refine, don’t forget to star us on GitHub!
         </div>
-      </div>
+      </div> */}
     </Link>
   );
 };
