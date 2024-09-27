@@ -13,7 +13,7 @@ const thumbsUpDownFeedbackWidget = require("./plugins/thumbs-up-down-feedback-wi
 
 /** @type {import('@docusaurus/types/src/index').DocusaurusConfig} */
 const siteConfig = {
-  title: "Hostnodes",
+  title: "ტექნიკური ბლოგი",
   tagline: "Build your React-based CRUD applications, without constraints",
   url: "https://blog.hostnodes.ge",
   baseUrl: "/",
@@ -193,7 +193,7 @@ const siteConfig = {
             {
               blogTitle: "Blog",
               blogDescription:
-                "ტექნიკური ბლოგ Wordpress-სა და ვებ-გვერდის ოპტიმიზაციაზე.",
+                "ტექნიკური ბლოგ WordPress-სა და ვებ-გვერდის ოპტიმიზაციაზე.",
               routeBasePath: "/",
               postsPerPage: 12,
               blogSidebarTitle: "უახლესი",
