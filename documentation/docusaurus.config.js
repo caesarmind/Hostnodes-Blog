@@ -47,12 +47,10 @@ const siteConfig = {
       async: true,
     },
   ],
-  headTags  : [
+  headTags: [
     {
-      tagName: 'script',
-      attributes: {
-
-      },
+      tagName: "script",
+      attributes: {},
       innerHTML: `
         !(function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -65,10 +63,8 @@ const siteConfig = {
       `,
     },
     {
-      tagName: 'noscript',
-      attributes: {
-
-      },
+      tagName: "noscript",
+      attributes: {},
       innerHTML: `
         <img
           height="1"
@@ -79,9 +75,9 @@ const siteConfig = {
       `,
     },
     {
-      tagName: 'script',
+      tagName: "script",
       attributes: {
-        type: "text/javascript"
+        type: "text/javascript",
       },
       innerHTML: `
         window.$crisp = [];
@@ -269,7 +265,7 @@ const siteConfig = {
         },
       ],
     },
-    image: "img/refine_social.png",
+    image: "img/hn_social.jpg",
     algolia: {
       appId: "KRR9VEUPCT",
       apiKey: "cd0188125dcd31fb4b011b5e536d963a",
