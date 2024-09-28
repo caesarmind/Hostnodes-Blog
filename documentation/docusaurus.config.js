@@ -193,7 +193,7 @@ const siteConfig = {
             {
               blogTitle: "Blog",
               blogDescription:
-                "ტექნიკური ბლოგ WordPress-სა და ვებ-გვერდის ოპტიმიზაციაზე.",
+                "ტექნიკური ბლოგი WordPress-სა და ვებ-გვერდის ოპტიმიზაციაზე.",
               routeBasePath: "/",
               postsPerPage: 12,
               blogSidebarTitle: "უახლესი",
@@ -265,7 +265,7 @@ const siteConfig = {
         },
       ],
     },
-    image: "img/hn_social.jpg",
+    image: "img/hn_social_new.jpg",
     algolia: {
       appId: "KRR9VEUPCT",
       apiKey: "cd0188125dcd31fb4b011b5e536d963a",
